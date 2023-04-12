@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ControladoresspringApplication<controladoresspring>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.racetospace.controladoresspring.ControladoresspringApplication",
+            "projectName": "controladoresspring",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
