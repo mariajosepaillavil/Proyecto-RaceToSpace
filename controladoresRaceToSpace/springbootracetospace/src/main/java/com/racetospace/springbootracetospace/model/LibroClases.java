@@ -20,5 +20,7 @@ public class LibroClases {
     @Id
     @GeneratedValue
     private Integer libro_clases_id;
-    private Integer libro_clases_calificaciones;
+    private Integer libro_clases_calificacion1;
+    private Integer libro_clases_calificacion2;
+    private Integer libro_clases_calificacion3;
 }

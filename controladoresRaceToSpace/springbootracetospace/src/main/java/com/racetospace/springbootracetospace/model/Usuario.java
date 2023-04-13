@@ -8,15 +8,16 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-// import javax.security.auth.callback.PasswordCallback;
-import javax.validation.constraints.Email;
 //import javax.validation.constraints.Email;
 //import javax.validation.constraints.NotNull;
-// import javax.validation.constraints.Size;
+import javax.validation.constraints.Size;
 
 //import org.hibernate.validator.constraints.Range;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+// import javax.validation.constraints.Email;
+
+
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -35,18 +36,18 @@ public class Usuario implements UserDetails {
     @Column(name = "usuarios_id")
     private Long id;
 
-    // @Size(min = 5, message = "Debe introducir mínimo 5 caractéres")
     @Column(name = "usuarios_nombre")
+    @Size(min = 5, message = "Debe introducir mínimo 5 caractéres")
     private String username;
 
-    // @Size(min = 8, message = "Debe introducir mínimo 8 caractéres")
-    
+   
+    @Size(min = 8, message = "Debe introducir mínimo 8 caractéres")
     @Column(name= "usuarios_contrasenia")
     private String password;
 
-    @Email
-    @Column(name= "usuarios_email")
-    private String email;
+    // @Email
+    // @Column(name= "usuarios_email")
+    // private String email;
 
     private boolean accountNonLocked;
 

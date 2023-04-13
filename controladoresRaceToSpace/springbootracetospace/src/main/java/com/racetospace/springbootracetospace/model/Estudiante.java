@@ -29,6 +29,7 @@ public class Estudiante {
     private String estudiantes_email;
     private String estudiantes_curso;
     private Integer modulos_id;
+    private Integer libro_clases_id;
 
 }
 
