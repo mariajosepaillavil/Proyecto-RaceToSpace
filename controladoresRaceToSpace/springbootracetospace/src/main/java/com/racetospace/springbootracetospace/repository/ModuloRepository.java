@@ -7,13 +7,13 @@ import org.springframework.data.jpa.repository.Query;
 import java.util.List;
 
 public interface ModuloRepository extends JpaRepository<Modulo, Integer>{
-    @Query(value="SELECT e.estudiantes_nombre, m modulos_nombre, j.juegos_nombre, m modulos_dificultad FROM Estudiantes e JOIN Modulos m ON e.modulos_id = m.modulos_id JOIN Juegos j ON j.modulos_id = m.modulos_id WHERE m.modulos_dificultad LIKE 'p%'", nativeQuery= true)
+    @Query(value="SELECT * FROM modulos WHERE modulos_dificultad LIKE ('Principiante')",nativeQuery=true)
     List<Modulo> findModulosWithP();
 
-    @Query(value="SELECT e.estudiantes_nombre, m modulos_nombre, j.juegos_nombre, m modulos_dificultad FROM Estudiantes e JOIN Modulos m ON e.modulos_id = m.modulos_id JOIN Juegos j ON j.modulos_id = m.modulos_id WHERE m.modulos_dificultad LIKE 'i%'", nativeQuery= true)
+    @Query(value="SELECT * FROM modulos WHERE modulos_dificultad LIKE ('Intermedio')",nativeQuery=true)
     List<Modulo> findModulosWithI();
 
-    @Query(value="SELECT e.estudiantes_nombre, m modulos_nombre, j.juegos_nombre, m modulos_dificultad FROM Estudiantes e JOIN Modulos m ON e.modulos_id = m.modulos_id JOIN Juegos j ON j.modulos_id = m.modulos_id WHERE m.modulos_dificultad LIKE 'a%'", nativeQuery= true)
+    @Query(value="SELECT * FROM modulos WHERE modulos_dificultad LIKE ('Avanzado')",nativeQuery=true)
     List<Modulo> findModulosWithA ();
 
     
