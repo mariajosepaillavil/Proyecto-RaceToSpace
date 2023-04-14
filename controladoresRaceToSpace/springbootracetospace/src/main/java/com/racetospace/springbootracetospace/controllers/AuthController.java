@@ -1,5 +1,6 @@
 package com.racetospace.springbootracetospace.controllers;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -33,45 +34,45 @@ public class AuthController {
 
     //Clase de spring security que permite encriptar contraseña
     @Autowired
-    public PasswordEncoder passwordEncoder;
+    private PasswordEncoder passwordEncoder;
 
     //Inyección de dependencia del service donde está el método de crear usuario
     @Autowired
-    public MyUserDetailsService myUserDetailsService;
+    private MyUserDetailsService myUserDetailsService;
 
     //Inyectamos dependencia donde está el método para generar el token
     @Autowired
-    public JwtUtil jwtUtil;
+    private JwtUtil jwtUtil;
 
     @Autowired
-    public MyAuthenticationManager authenticationManager;
+    private MyAuthenticationManager authenticationManager;
 
 
-    //Endpoint de registro 
-    @PostMapping("/register")
-    public ResponseEntity<Usuario> register(@RequestBody UsuarioDTO usuarioDto) {
-        String encryptedPassword = passwordEncoder.encode(usuarioDto.getPassword());
-        usuarioDto.setPassword(encryptedPassword);
-        Usuario usuarioRegistrado = myUserDetailsService.createUser(usuarioDto);
-        return new ResponseEntity<>(usuarioRegistrado, HttpStatus.CREATED);
-    }
+     //Endpoint de registro 
+     @PostMapping("/register")
+     public ResponseEntity<Usuario> register(@RequestBody UsuarioDTO usuarioDto) {
+         String encryptedPassword = passwordEncoder.encode(usuarioDto.getPassword());
+         usuarioDto.setPassword(encryptedPassword);
+         Usuario usuarioRegistrado = myUserDetailsService.createUser(usuarioDto);
+         return new ResponseEntity<>(usuarioRegistrado, HttpStatus.CREATED);
+     }
+ 
 
-    //Endpoint para logearse
-    @PostMapping("/login")
-    public ResponseEntity<AuthResponseDTO> authenticate(@RequestBody UsuarioDTO usuarioDTO) {
-
-        Authentication authentication = authenticationManager.authenticate(
-            new UsernamePasswordAuthenticationToken(usuarioDTO.getUsername(), usuarioDTO.getPassword()));
-        SecurityContextHolder.getContext().setAuthentication(authentication);
-
-        UserDetails userdetails = myUserDetailsService.loadUserByUsername(usuarioDTO.getUsername());
-        String jwtToken = jwtUtil.generateToken(userdetails);
-
-        return new ResponseEntity<>(new AuthResponseDTO(jwtToken), HttpStatus.OK);
-    }
-
-
-
+       //Endpoint para logearse
+       @PostMapping("/login")
+       public ResponseEntity<AuthResponseDTO> authenticate(@RequestBody UsuarioDTO usuarioDTO) {
+   
+           Authentication authentication = authenticationManager.authenticate(
+               new UsernamePasswordAuthenticationToken(usuarioDTO.getUsername(), usuarioDTO.getPassword()));
+           SecurityContextHolder.getContext().setAuthentication(authentication);
+   
+           UserDetails userdetails = myUserDetailsService.loadUserByUsername(usuarioDTO.getUsername());
+           String jwtToken = jwtUtil.generateToken(userdetails);
+   
+           return new ResponseEntity<>(new AuthResponseDTO(jwtToken), HttpStatus.OK);
+       }
+   
+   
     @Getter
     @Setter
     @AllArgsConstructor
