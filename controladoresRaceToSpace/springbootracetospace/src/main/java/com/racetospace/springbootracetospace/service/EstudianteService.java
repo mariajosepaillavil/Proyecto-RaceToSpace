@@ -1,22 +1,25 @@
 package com.racetospace.springbootracetospace.service;
 
-import java.util.List;
-
 import javax.transaction.Transactional;
+
 import org.springframework.stereotype.Service;
+
 import com.racetospace.springbootracetospace.model.Estudiante;
 import com.racetospace.springbootracetospace.repository.EstudianteRepository;
+import java.util.List;
+
+import java.util.List;
 
 @Service
 @Transactional
 public class EstudianteService {
-    //se conecta con el archivo repository para poder ocuparlo a nivel 
+
     //de las instrucciones creadas en esta
     private EstudianteRepository estudianteRepository;
 
-    public EstudianteService(EstudianteRepository estudianteRepository){
-        this.estudianteRepository = estudianteRepository;
-    }
+    public EstudianteService(EstudianteRepository estudianteRepository) {
+        this.estudianteRepository = estudianteRepository; 
+    } //Hasta aquí se puede armar con constructor*
 
     public void saveEstudiante(Estudiante estudiante){
         //este .save está haciendo el trabajo de in insert into,
@@ -37,13 +40,18 @@ public class EstudianteService {
 
     public List<Estudiante> findAll(){
         return estudianteRepository.findAll();
-    }
 
+    }
+    
     public List<Estudiante> estudiantesConLL(){
-        return estudianteRepository.findEstudiantesWithLL();
+            return estudianteRepository.findEstudiantesWithLL();
     }
-
+    
     public List<Estudiante> estudiantesPorModulo(Integer modulo){
-        return estudianteRepository.findEstudiantesByModulo(modulo);
+            return estudianteRepository.findEstudiantesByModulo(modulo);
     }
+    
+
 }
+
+

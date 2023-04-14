@@ -1,0 +1,41 @@
+.referente {
+ 
+    display: flex;
+    position: relative;
+    margin-top: 10em;
+}
+
+
+
+.instrucciones {
+    width: 50em;
+    height: 12em;
+    border-radius: 0.5em;
+    background-color: white;
+    position: relative;
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5em;
+
+}
+.instrucciones h5 {
+    margin-bottom: 5em;
+    margin-left: 0em;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+   font-weight: bold;
+}
+
+.instrucciones p {
+    margin: 0;
+    right: 0em;
+    padding: 3px 3px;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    text-align: justify;
+    margin: 2em;
+   
+}

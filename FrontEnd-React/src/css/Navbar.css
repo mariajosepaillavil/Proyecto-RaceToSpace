@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+
+* {
+    justify-content: center;
+    align-content: center;
+}
+.Modal-titulo{
+    color: black;
+    align-items: center;
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+}
+label {
+    color: black;
+}
+
+h3 {
+    position: relative;
+    right: 4em;
+}
+
+.fontCode {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10%;
+    ;
+    cursor: pointer;
+}
+
+
+.fontCode img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    
+}
+
+.fontCode img {
+    transition: all;
+}
+
+p {
+    font-family: monospace;
+    justify-content: left;
+    align-items: center;
+    text-align: justify;
+
+
+}
+
+.fontCode {
+    margin-top: 2em;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar p {
+    font-size: 100%;
+    color: white;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 5em;
+    object-fit: cover;
+    display: flex;
+
+}
+
+.navbar p:hover {
+    transform: scale(1.2);
+    font-size: 100%;
+
+    color: rgb(240, 172, 12);
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 5em;
+    display: flex;
+
+}
+
+.botones {
+
+    position: absolute;
+    justify-content: space-between;
+    left: 80%;
+    bottom:  5em;
+
+    
+
+}
+
+.separador {
+    background-color: white;
+    bottom: 1;
+    right: 135px;
+    width: 2px;
+    height: 20px;
+    position: absolute;
+}
+
+.botones .a {
+    border-radius: 30px;
+    color: white;
+    background-color: #ff7900;
+    padding: 10px 10px;
+    font-family: monospace;
+    font-size: 80%;
+    display: inline-table;
+    padding: 2px 20px;
+    top: 3em;
+   
+  
+    
+}
+
+
+
+.botones .a:hover {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 80%;
+    background-color: transparent !important;
+    display: inline-table;
+    border: 2px solid #ff7900 !important;
+    color: #ff7900 !important;
+
+    margin-bottom: 0.1em;
+
+}
