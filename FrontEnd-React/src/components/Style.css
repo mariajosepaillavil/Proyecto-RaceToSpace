@@ -238,6 +238,7 @@ div.contenido-total * {
     background: #ff8500;
     padding: 30px;
     border-radius: 50px;
+   
 
 
 }
@@ -253,14 +254,18 @@ div.contenido-total * {
 div.card {
     background: none;
     margin-bottom: 100px;
+    border: none;
 }
 
 img {
     background: none;
+    border: none;
 }
 
 div.container-cards {
     background: none;
+    border: none;
+    
 }
 
 .card {
@@ -268,10 +273,12 @@ div.container-cards {
     width: 350px;
     margin: 10px;
     transition: all 300ms;
+    border: none;
 }
 
 .card:hover {
     width: 350px;
+    border: none;
 }
 
 .card .cover {
@@ -279,6 +286,7 @@ div.container-cards {
     height: 250px;
     position: relative;
     overflow: hidden;
+    border: none;
 }
 
 .card .cover img {
@@ -290,11 +298,13 @@ div.container-cards {
     z-index: 1;
     filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
     transition: all 400ms;
+    border: none;
 }
 
 .card:hover .cover img {
     top: 0px;
     filter: none;
+    border: none;
 }
 
 .card .img-back {
@@ -306,6 +316,7 @@ div.container-cards {
     background-size: cover;
     border-radius: 20px;
     transition: all 300ms;
+    border: none;
 }
 
 .card:nth-of-type(1) .img-back {
@@ -322,7 +333,7 @@ div.container-cards {
 
 .card:hover .img-back {
     bottom: -50px;
-
+border: none;
 }
 
 .card .descripcion {
@@ -332,6 +343,7 @@ div.container-cards {
     padding-bottom: 50px;
     border-radius: 0px 0px 2px 20px;
     transition: all 300ms;
+    border: none;
 }
 
 
@@ -340,11 +352,13 @@ div.container-cards {
     font-size: 20px;
     text-align: center;
     font-weight: bold;
+    border: none;
 }
 
 .card .descripcion p {
     margin-top: 20px;
     font-size: 15px;
+    border: none;
 }
 
 .card .descripcion input {
@@ -357,10 +371,12 @@ div.container-cards {
     font-size: 14px;
     cursor: pointer;
     transition: all 300ms;
+    border: none;
 }
 
 .card .descripcion input:hover {
     background: #7b2cbf;
+    border: none;
 }
 
 

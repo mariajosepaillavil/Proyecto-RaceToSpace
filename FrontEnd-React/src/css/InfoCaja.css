@@ -1,4 +1,7 @@
-
+span .importante{
+    font-weight: bold;
+    color: black;
+}
 
 .contenido {
 
@@ -10,14 +13,20 @@
 .titulo-modulo {
     color: black;
     text-align: left;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
-.texto-modulo {
-    color: black;
-}
+
 
 .texto-perfil {
     color: black;
     text-align: left;
+    font-size: 1.5em;
+}
+
+.div .Importante,span {
+    color: black;
+    font-weight: bold;
 }
 
 .union {
@@ -45,7 +54,7 @@
     color: black;
     background-color: #ffffff;
     width: 250px;
-    height: 1000px;
+    height: 800px;
     border-radius: 30px;
     box-shadow: 2px 2px 30px 2px #333333;
     margin-bottom: 30em;
