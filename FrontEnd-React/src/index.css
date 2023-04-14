@@ -1,0 +1,9 @@
+body {
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    background-image: url(/public/imagenes/Fondo_pag2.png);
+    background-repeat: no-repeat;
+    margin: 0;
+    background-position: 100;
+
+}

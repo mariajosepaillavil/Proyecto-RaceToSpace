@@ -1,0 +1,37 @@
+
+
+.bloques h1{
+
+    font-size: 1.5em;
+    align-items: center;
+    color: white;
+display: flex;
+margin-bottom: 1em;
+    
+}
+
+.bloqueUno {
+
+    width: 15em;
+    height: 8em;
+    border-radius: 2em 2em 0 0;
+    border-bottom: 100;
+    background-color: rgb(255, 128, 0);
+    position: relative;
+    top: 100em;
+    display: flex;
+  
+}
+
+.bloqueDos {
+
+    width: 15em;
+    height: 8em;
+    border-radius: 2em 2em 0 0;
+    border-bottom: 100;
+    background-color: rgb(255, 128, 0);
+    position: relative;
+    top: 100em;
+    display: flex;
+   
+}
