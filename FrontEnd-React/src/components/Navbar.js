@@ -102,7 +102,7 @@ const Navbar = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#" ><p>&gt;Te aconsejamos   <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display: "flex", marginLeft: "5em" }} /> </p> </a>
+                                <a className="nav-link " href="../PerfilProfesor" ><p>&gt;Te aconsejamos   <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display: "flex", marginLeft: "5em" }} /> </p> </a>
                             </li>
                         </ul>
 
