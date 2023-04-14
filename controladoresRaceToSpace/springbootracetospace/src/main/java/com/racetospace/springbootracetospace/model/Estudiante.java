@@ -11,6 +11,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+
 //el entity nos permite decirle al objeto que hará referencia a una tabla
 //ademas le podemos entregar el nombre de la tabla de manera explicita
 @NoArgsConstructor
@@ -31,5 +32,5 @@ public class Estudiante {
     private Integer modulos_id;
     private Integer libro_clases_id;
 
-}
 
+}
