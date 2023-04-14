@@ -202,7 +202,17 @@
     height: 10em;
     left: 10em;
     top: 20em;
+    cursor: pointer;
     /* Para que la imagen cubra todo el contenedor */
+}
+.leccion1 a {
+    display: block;
+    /* Hace que el enlace ocupe todo el espacio del elemento */
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer
 }
 .leccion1::before {
     content: "";
@@ -224,7 +234,7 @@
 
 .leccion1:hover::before {
     opacity: 1;
-    
+  
 }
 .leccion2 {
     position: absolute;
@@ -240,6 +250,7 @@
     left: 30em;
     top: 18em;
     display: flex;
+
 }
 
 .leccion3 {

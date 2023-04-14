@@ -9,10 +9,11 @@ import  JuegoPizarra from "./JuegoPizarra";
 import Referente from "./Referente";
 import Banner from "./Banner";
 import Carrusel from "./Carrusel";
-import FormularioRegistro from "./FormularioRegistro";
+
 import CuerpoUno from "./CuerpoUno";
 import CuerpoDos from "./CuerpoDos";
 import Formulario from "./Formulario";
+import {TablaAlumno}  from "./TablaAlumno";
 
 
 
@@ -29,7 +30,7 @@ export {
     Referente,
     Banner,
     Carrusel,
-    FormularioRegistro,
+    TablaAlumno,
     CuerpoUno,
     CuerpoDos,
     Formulario,
