@@ -45,9 +45,9 @@ public class Usuario implements UserDetails {
     @Column(name= "usuarios_contrasenia")
     private String password;
 
-    // @Email
-    // @Column(name= "usuarios_email")
-    // private String email;
+    //@Email
+    //@Column(name= "usuarios_email")
+    //private String email;
 
     private boolean accountNonLocked;
 
