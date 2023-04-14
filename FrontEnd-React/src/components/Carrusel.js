@@ -11,7 +11,7 @@ function Carrusel() {
 
       <div class="texto-titulos">
         <h2>¿Sabes quiénes son?</h2>
-        <h5>Pioneras de la tecnología que te acompañaran en cada aprendizaje</h5>
+        <h5>Pioneras de la tecnología que te acompañarán en cada aprendizaje</h5>
       </div>
 
       <div class="conteiner-cards">
@@ -23,12 +23,12 @@ function Carrusel() {
           </div>
           <div class="descripcion">
             <h2>
-              Adan lovelace
+              Ada Lovelace
             </h2>
             <p>
-              Madre de la programación, informática. Diseño
-              una máquina analística mecácina, capaz de calcular
-              funciones algebraicas
+              Madre de la programación e informática. Diseñó
+              una máquina analística mecánica, capaz de calcular
+              funciones algebraicas.
             </p>
             <input type="button" value="leer más" />
           </div>
@@ -45,7 +45,7 @@ function Carrusel() {
               Margaret Hamilton
             </h2>
             <p>
-              Dirigió desde el MIT el equipo que desarrollo
+              Dirigió desde el MIT el equipo que desarrolló
               el "software" de navegación del Programa Espacial Apolo
             </p>
             <input type="button" value="leer más" />
@@ -63,8 +63,8 @@ function Carrusel() {
               Hady Lamarr
             </h2>
             <p>
-              Famosa actriz de Hollywood e inventora. Creo
-              un sistema inálambrico para misiles que inspito el wifi
+              Famosa actriz de Hollywood e inventora. Creó
+              un sistema inálambrico para misiles que inspiró el WiFi.
             </p>
             <input type="button" value="leer más" />
           </div>

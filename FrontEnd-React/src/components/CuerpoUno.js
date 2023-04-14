@@ -10,17 +10,18 @@ const CuerpoUno = () => {
         <div class="car mb-4">
             <div class="car-body">
                 <figure className="text-center">
-                    <h2>¿Cómo ayuda <spam class="resaltar"> RaceToSpace</spam> a tus hijos?</h2>
-                    <h4>Educación base a códigos para la primera infancia</h4>
+                    <h2>¿Qué aprenderán tus hijos con <spam class="resaltar">RaceSpace</spam>?</h2>
+                    <h4>Educación con base a código para la primera infancia</h4>
                 </figure>
 
                 <div class="text-cuerpo-uno">
                 <img src={pensamiento} class="texto-uno" alt="..." ></img>
                     <h5 class="car-title">
-                        Pensamientos lógicos
+                        Pensamiento lógico
                     </h5>
                     <p class="car-text md-2">
-                        Enseña a tus hijos a aprender a tomar un problema, divirdirlo en varias partes y usar una serie de herramientas para resolverlo.
+                        Herramientas necesarias para solucionar problemas.
+
                     </p>
                 </div>
 
@@ -32,7 +33,8 @@ const CuerpoUno = () => {
                         Trabajo en equipo
                     </h5>
                     <p class="car-text md-2">
-                    Colaborar una con otros para fomentar el autoestima, manejo de la frustración y la confianza de lo más pequeño mientras van aprendiendo a programar.
+                        Ambiente colaborativo para fomentar la autoestima, el manejo de la frustración y la confianza.
+
                     </p>
                 </div>
 
@@ -44,7 +46,7 @@ const CuerpoUno = () => {
                     Aprendizaje del futuro
                 </h5>
                 <p class="car-text">
-                    La Programación es la profesión más demandada del siglo XXI y en rápido crecimiento. Aprender a programar abrirá a los niños muchísimas salidas laborales diferentes.
+                        Proyección en una de las profesiones más demandadas del siglo XXI.
                 </p>
                 </div>
 

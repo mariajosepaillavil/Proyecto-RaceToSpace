@@ -4,6 +4,16 @@
     justify-content: center;
     align-content: center;
 }
+.Modal-titulo{
+    color: black;
+    align-items: center;
+    font-weight: bolder;
+    align-content: center;
+    text-align: center;
+}
+label {
+    color: black;
+}
 
 h3 {
     position: relative;
@@ -75,14 +85,15 @@ p {
     position: absolute;
     justify-content: space-between;
     left: 80%;
-    top: -40%;
+    bottom:  5em;
+
     
 
 }
 
 .separador {
     background-color: white;
-    bottom: 17px;
+    bottom: 1;
     right: 135px;
     width: 2px;
     height: 20px;
@@ -98,8 +109,10 @@ p {
     font-size: 80%;
     display: inline-table;
     padding: 2px 20px;
-    margin-bottom: 1em;
-    margin-top: 2em;
+    top: 3em;
+   
+  
+    
 }
 
 
@@ -112,6 +125,6 @@ p {
     border: 2px solid #ff7900 !important;
     color: #ff7900 !important;
 
-    margin-bottom: 1em;
+    margin-bottom: 0.1em;
 
 }

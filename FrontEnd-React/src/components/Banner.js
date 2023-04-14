@@ -33,7 +33,7 @@ const Banner = () => {
                         Nuestro objetivo
                     </spam></h2>
                     <p>
-                        Impulsar desde la niñez aprender sobre el universo de la tecnología. Avanzando poco a poco para proyectar nuevos desarrolladores del futuro. 
+                        Impulsar desde la niñez el aprendizaje sobre el universo de la tecnología. Contribuyendo en la formación de los  desarrolladores del futuro. 
                     </p>
                 </div>
             </div>
