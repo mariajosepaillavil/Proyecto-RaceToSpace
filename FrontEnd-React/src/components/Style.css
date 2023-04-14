@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500;600;700&display=swap');
+
+* {
+    color: white;
+}
+/*-----banner-----*/
+
+button.btn-primary {
+    background: none;
+    background: #ff8500;
+    margin-top: 10px;
+    border-radius: 100px;
+
+}
+
+.btn.btn-primary:hover {
+    background: #5a189a;
+}
+
+/*botones de banner*/
+
+button.btn.btn-primary.me-md-2 {
+    margin-left: 20px;
+}
+
+div.boton {
+    margin-left: 30px;
+}
+
+/*imagen banner*/
+
+img.rounded.float-end {
+    background: none;
+    margin: 30px;
+    margin-right: 8px;
+    width: 400px;
+    height: 407px;
+}
+
+div {
+    background: none;
+}
+
+
+div.primer-text {
+    margin-left: 50px;
+    margin-right: 500px;
+    text-align: start;
+    /*para evitar que el texto de deforme al ajustar la página*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.primer-text h1 {
+    font-size: 45px;
+}
+
+.primer-text p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.primer-text h1::selection {
+    color: black;
+    background-color: #ff8500;
+}
+
+
+div.segundo-text {
+    text-align: center;
+    margin-top: 150px;
+    margin-right: -650px;
+    background: #ff8500;
+    border-radius: 90px 0px 90px 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.segundo-text h2 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+
+.segundo-text p {
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 1.2em;
+    margin: 2em;
+
+
+}
+
+
+/*-----cuerpoUno-----*/
+
+div.car.mb-4 {
+    background-color: #ff8500;
+    padding: 40px;
+    border: 100;
+    border-radius: 100px 0px 100px 0px;
+}
+
+div.car {
+    background: none;
+}
+
+div.car-body {
+    background: none;
+}
+
+div.text-cuerpo-uno {
+    background: none;
+}
+
+.text-center {
+    background: none;
+
+}
+
+.text-center h2 {
+    font-weight: bold;
+
+
+}
+
+.resaltar {
+    background: none;
+    background-color: #5a189a;
+
+}
+
+h5 {
+    font-weight: bold;
+}
+
+.text-center h4 {
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.car-title {
+    background: none;
+    margin-top: 50px;
+}
+
+
+div.text-cuerpo-uno {
+    background-color: #5a189a;
+    border-radius: 50% 20%/ 10% 40%;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-left: 150px;
+    margin-right: 700px;
+    margin-bottom: 100px;
+    margin-top: 90px;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+div.text-cuerpo-dos {
+    background-color: #5a189a;
+    border-radius: 50% 20%/ 10% 40%;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-left: 700px;
+    margin-top: 30px;
+    margin-right: 150px;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+div.text-cuerpo-tres {
+    background-color: #5a189a;
+    border-radius: 50% 20%/ 10% 40%;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 20px;
+    margin-left: 150px;
+    margin-right: 650px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: start;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+img.texto-uno {
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 600px;
+    position: absolute;
+}
+
+img.texto-dos {
+    width: 250px;
+    margin-left: -450px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+img.texto-tres {
+    width: 250px;
+    margin-top: 30px;
+    margin-left: 550px;
+    position: absolute;
+
+}
+
+/*-----Carrusel pioneras-----*/
+
+div.contenido-total * {
+    background: none;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*titulo de la parte del carrusel*/
+
+.texto-titulos h2 {
+    margin-top: 30px;
+    margin-left: 390px;
+    background: #ff8500;
+    padding: 30px;
+    border-radius: 50px;
+
+
+}
+
+.texto-titulos h5 {
+    margin-top: 30px;
+
+
+}
+
+
+
+div.card {
+    background: none;
+    margin-bottom: 100px;
+}
+
+img {
+    background: none;
+}
+
+div.container-cards {
+    background: none;
+}
+
+.card {
+    border: none;
+    width: 350px;
+    margin: 10px;
+    transition: all 300ms;
+}
+
+.card:hover {
+    width: 350px;
+}
+
+.card .cover {
+    width: 100%;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card .cover img {
+    width: 250px;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 40px;
+    z-index: 1;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+    transition: all 400ms;
+}
+
+.card:hover .cover img {
+    top: 0px;
+    filter: none;
+}
+
+.card .img-back {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    bottom: -90px;
+    left: 0;
+    background-size: cover;
+    border-radius: 20px;
+    transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img-back {
+    background: #ff8500
+}
+
+.card:nth-of-type(2) .img-back {
+    background: #ff8500
+}
+
+.card:nth-of-type(3) .img-back {
+    background: #ff8500
+}
+
+.card:hover .img-back {
+    bottom: -50px;
+
+}
+
+.card .descripcion {
+    background: #ff8500;
+    margin-top: -10px;
+    padding: 25px;
+    padding-bottom: 50px;
+    border-radius: 0px 0px 2px 20px;
+    transition: all 300ms;
+}
+
+
+.card .descripcion h2 {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card .descripcion p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.card .descripcion input {
+    padding: 9px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    background: #5a189a;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+.card .descripcion input:hover {
+    background: #7b2cbf;
+}
+
+
+/*-----cuerpoDos-----*/
+
+div.row {
+    background: none;
+}
+
+div.col-md-4.p-5 {
+    background: none;
+}
+
+div.col-md-8.p-5 {
+    background: none;
+}
+
+div.car-body {
+    background: #ff8500;
+    border-radius: 30px 30px 30px 0px;
+    padding: 32px;
+}
+div.car-body h5{
+   font-size: 2em;
+   
+}
+
+div.car-body p {
+    font-size: 1.2em;
+    
+    
+}
+div.col-md-4 {
+    background: none;
+}
+
+button.btn.btn-primary.p {
+    background: #5a189a;
+
+}
+
+button.btn.btn-primary.p:hover {
+    background: #7b2cbf;
+}
+
+
+/*-----formulario-----*/
+
+form {
+    background: none;
+}
+
+div.form {
+    margin-top: -100px;
+    padding-block: 200px;
+    width: 1000px;
+    padding-left: 300px;
+}
+
+.mb-3 label {
+    background: none;
+}
+
+.mb-3 input {
+    background: none;
+}
+
+.form-control {
+    background: none;
+}
+
+
+/*------boton para ir a formulacio------*/
+
+a {
+    background: none;
+}
+
+
+/*-----Pie de paginas/footer------*/
+
+div.card-footer.text-body-secondary-center {
+    text-align: center
+}

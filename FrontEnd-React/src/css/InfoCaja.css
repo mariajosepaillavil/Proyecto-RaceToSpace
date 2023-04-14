@@ -1,0 +1,177 @@
+
+
+.contenido {
+
+    align-items: center;
+    justify-items: center;
+
+    color: black;
+}
+.titulo-modulo {
+    color: black;
+    text-align: left;
+}
+.texto-modulo {
+    color: black;
+}
+
+.texto-perfil {
+    color: black;
+    text-align: left;
+}
+
+.union {
+    position: relative;
+    color: black;
+    left: 20px;
+
+}
+
+.parrafocaja {
+    align-items: center;
+    padding-inline: 2em;
+    margin-top: 3em;
+    color: white;
+}
+
+
+.cajaPerfil {
+    font-family: 'Source Code Pro', monospace;
+
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 80%;
+    color: black;
+    background-color: #ffffff;
+    width: 250px;
+    height: 1000px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 30px 2px #333333;
+    margin-bottom: 30em;
+    margin-left: 7em;
+    margin-top: 3em;
+}
+
+.contenedor-cajas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    margin-left: 1em;
+
+}
+
+
+.bg-caja1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+    color: black;
+    background-color: #cdff6f;
+    width: 500px;
+    height: 200px;
+    padding: 1em 1em;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    margin: 30px;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+
+.bg-caja2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+    color: black;
+    background-color: #d28aff;
+    width: 500px;
+    height: 200px;
+    padding: 1em 1em;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    margin: 30px;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+
+.bg-caja3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+    color: black;
+    background-color: #f7a9e6;
+    width: 500px;
+    height: 200px;
+    padding: 1em 1em;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    margin: 30px;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+
+.bg-caja4 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 100%;
+    color: black;
+    background-color: #94DCF0;
+    width: 500px;
+    height: 200px;
+    padding: 1em 1em;
+
+    border-radius: 30px;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    margin: 30px;
+    box-shadow: 2px 2px 30px 2px #333333;
+}
+
+@media screen and (max-width: 768px) {
+    .contenido {
+        margin-left: 0;
+    }
+
+    .cajaPerfil {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-left: 50px;
+    }
+
+    .bg-caja1,
+    .bg-caja2,
+    .bg-caja3,
+    .bg-caja4 {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin-inline: 0;
+
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .parrafocaja {
+        padding-inline: 1em;
+        margin-top: 1.5em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .bg-caja1,
+    .bg-caja2,
+    .bg-caja3,
+    .bg-caja4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+}

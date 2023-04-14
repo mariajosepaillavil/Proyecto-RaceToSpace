@@ -47,9 +47,3 @@ public interface EstudianteRepository extends JpaRepository <Estudiante,Integer>
 
 }
 
-
-
-
-
-
-

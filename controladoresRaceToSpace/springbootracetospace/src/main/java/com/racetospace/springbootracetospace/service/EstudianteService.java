@@ -6,14 +6,14 @@ import org.springframework.stereotype.Service;
 
 import com.racetospace.springbootracetospace.model.Estudiante;
 import com.racetospace.springbootracetospace.repository.EstudianteRepository;
+import java.util.List;
 
 import java.util.List;
 
 @Service
 @Transactional
 public class EstudianteService {
-    
-     //se conecta con el archivo repository para poder ocuparlo a nivel 
+
     //de las instrucciones creadas en esta
     private EstudianteRepository estudianteRepository;
 
