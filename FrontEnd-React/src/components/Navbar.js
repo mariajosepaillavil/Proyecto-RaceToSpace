@@ -33,7 +33,10 @@ const Navbar = () => {
     };
 
     return (
-        <>
+
+       //{}AQUI INICIA EL MODAL //
+
+        <>  
             <Modal show={showModal} onHide={handleCloseModal}>
                 <Modal.Header closeButton>
                     <Modal.Title> <h2 className="Modal-titulo"> Registro </h2></Modal.Title>
@@ -62,6 +65,11 @@ const Navbar = () => {
                     </form>
                 </Modal.Body>
             </Modal>
+
+            { /*  TERMINO DE MODAL */} 
+
+            { /*  INICIO DE NAVEGADORA */} 
+
              <nav className="navbar navbar-expand-lg navbar-dark navbar-light" >
                 <div className="container">
                     <a className="navbar-brand" href="/Inicio">
@@ -74,14 +82,14 @@ const Navbar = () => {
                         <ul className="navbar-nav mx-auto ">
                             <li className="nav-item ">
                                 <a className="nav-link "href="../Juego1">
-                                    <p>&gt;QUIENES  <br />SOMOS   <br /> <img src="/Imagenes/Rectangle 45.png" alt='separadorNav' width="10px" height="40" style={{ display: "flex", marginLeft: "5em" }} /> </p>
+                                    <p>&gt;Quienes  <br />somos   <br /> <img src="/Imagenes/Rectangle 45.png" alt='separadorNav' width="10px" height="40" style={{ display: "flex", marginLeft: "5em" }} /> </p>
                                 </a>
                               
 
                             </li>
                             <li className="nav-item">
                               
-                                <a className="nav-link " href="../Modulo" ><p>&gt;MATERIA <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display: "flex", marginLeft: "5em" }} /></p>
+                                <a className="nav-link " href="../Modulo" ><p>&gt;Cursos <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display: "flex", marginLeft: "5em" }} /></p>
                                     
                                 </a>
                                 
@@ -89,14 +97,19 @@ const Navbar = () => {
                             <li className="nav-item">
                                
                                 <a className="nav-link" href="../Perfil">
-                                    <p>&gt;NUESTRO <br />PROGRAMA   <br /> <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display:"flex", marginLeft: "5em" }} /> </p>
+                                    <p>&gt;Nuestro <br />programa   <br /> <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display:"flex", marginLeft: "5em" }} /> </p>
                                   
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link " href="#" ><p>&gt;TE ACONSEJAMOS  </p> </a>
+                                <a className="nav-link " href="#" ><p>&gt;Te aconsejamos   <img src="/Imagenes/Rectangle 45.png" width="10px" height="40" alt='separadorNav' style={{ display: "flex", marginLeft: "5em" }} /> </p> </a>
                             </li>
                         </ul>
+
+                        { /*  TERMINO DE NAVEGADORA */} 
+
+
+                        { /*  INICIO DE BOTON */} 
                     </div>
                     <div className="botones d-flex align-items-center">
                         <div className="d-grid gap-5 d-md-flex justify-content-md-end">
@@ -104,12 +117,11 @@ const Navbar = () => {
                             <div class="separador"></div>
                             <Button variant="btn a" onClick={() => setShowModal(true)}>Registrarse</Button>
                             
-                       
-              
+                    
                         </div>
                         </div>
                      </div>
-              
+                { /*  FIN DE BOTON */} 
             </nav>
         </>
     );
