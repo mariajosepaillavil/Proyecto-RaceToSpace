@@ -1,0 +1,80 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+div .informacion p {
+    color: white;
+}
+
+.astroBienvenida {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: justify;
+    margin-top: 2em;
+    margin-left: 30px;
+    margin-bottom: 2em;
+    padding: 3em;
+    box-sizing: border-box;
+}
+
+.imagen img {
+    animation: updown 3s linear infinite;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.imagen {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.imagen img {
+    max-width: 100%;
+    margin-right: 20px;
+}
+
+
+
+.informacion p {
+
+    padding-inline: 3em;
+
+    padding-top: 2em;
+    padding-bottom: 0;
+
+
+}
+
+@media (min-width: 768px) {
+    .imagen {
+        flex: 0 0 50%;
+        margin-right: 2em;
+    }
+
+    .informacion {
+        flex: 0 0 50%;
+        margin-top: 0;
+
+    }
+
+    .imagen img {
+        max-width: 80%;
+        margin-right: 2em;
+    }
+}

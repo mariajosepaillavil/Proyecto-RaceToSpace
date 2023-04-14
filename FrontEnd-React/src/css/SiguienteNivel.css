@@ -1,0 +1,35 @@
+.bloques h1 {
+
+    font-size: 1em;
+    align-items: center;
+    color: white;
+    display: flex;
+    margin-bottom: 1em;
+
+}
+
+.bloque1 {
+
+    width: 15em;
+    height: 8em;
+    border-radius: 2em 2em 0 0;
+    border-bottom: 100;
+    background-color: rgb(255, 128, 0);
+    position: relative;
+    top: 10em;
+    display: flex;
+
+}
+
+.bloque2 {
+
+    width: 15em;
+    height: 8em;
+    border-radius: 2em 2em 0 0;
+    border-bottom: 100;
+    background-color: rgb(255, 128, 0);
+    position: relative;
+    top: 10em;
+    display: flex;
+
+}

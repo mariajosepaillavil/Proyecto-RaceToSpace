@@ -1,0 +1,371 @@
+.container {
+    position: relative;
+   
+}
+ 
+
+.cohete img {
+    
+    position: absolute;
+    width: 30%;
+    top: 55em;
+    right: 0em;
+}
+
+.lecciones {
+    bottom: 3em;
+    position: relative;
+}
+
+.camino {
+    position: absolute;
+    background-color: orange;
+        border-radius: 10em;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        width: 1em;
+        height: 1em;
+        left: 22em;
+        top: 23em;
+    }
+.camino {
+    position: absolute;
+    background-color: orange;
+    border-radius: 10em;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 1em;
+    height: 1em;
+    left: 21em;
+    top: 22em;
+}
+  
+
+.camino:nth-child(2) {
+    left: 24em;
+        top: 21.5em;
+}
+.camino:nth-child(3) {
+    left: 27em;
+    top: 21.5em;
+}
+
+.camino:nth-child(4) {
+    left: 42em;
+    top: 21.5em;
+}
+
+.camino:nth-child(6) {
+    left: 45em;
+    top: 22em;
+}
+
+.camino:nth-child(7) {
+    left: 48em;
+    top: 23em;
+}
+
+.camino:nth-child(8) {
+    left: 48em;
+    top: 23em;
+}
+.camino:nth-child(9) {
+    left: 62em;
+    top: 29em;
+}
+.camino:nth-child(10) {
+    left: 63em;
+    top: 22em;
+}
+.camino:nth-child(11) {
+    left: 64.5em;
+    top: 31em;
+}
+.camino:nth-child(12) {
+    left: 66em;
+    top: 34em;
+}
+
+.camino:nth-child(13) {
+    left: 66em;
+    top: 46em;
+}
+
+.camino:nth-child(14) {
+    left: 63em;
+    top: 48em;
+}
+
+.camino:nth-child(15) {
+    left: 63em;
+    top: 48em;
+}
+.camino:nth-child(16) {
+    left: 60em;
+    top: 49em;
+}
+
+.camino:nth-child(17) {
+    left: 45em;
+    top: 49em;
+}
+.camino:nth-child(18) {
+    left: 42em;
+    top: 48.5em;
+}
+.camino:nth-child(19) {
+    left: 39em;
+    top: 49em;
+}
+
+.camino:nth-child(20) {
+    left: 10em;
+    top: 10em;
+}
+
+.camino:nth-child(21) {
+    left:25.5em;
+    top: 50em;
+}
+
+.camino:nth-child(22) {
+    left: 23em;
+    top: 50.5em;
+}
+.camino:nth-child(23) {
+    left: 21em;
+    top: 52em;
+}
+.camino:nth-child(24) {
+    left: 12em;
+    top: 65em;
+}
+
+.camino:nth-child(25) {
+    left: 0em;
+    top: 0em;
+}
+
+.camino:nth-child(26) {
+    left: 10em;
+    top: 70em;
+}
+.camino:nth-child(27) {
+    left: 10.5em;
+    top: 67em;
+}
+
+.camino:nth-child(28) {
+    left: 15em;
+    top: 82em;
+}
+
+.camino:nth-child(29) {
+    left: 18em;
+    top: 83.5em;
+}
+
+.camino:nth-child(30) {
+    left: 20em;
+    top: 86em;
+}
+.camino:nth-child(31) {
+    left: 37em;
+    top: 86em;
+}
+
+.camino:nth-child(32) {
+    left: 40em;
+    top: 86.5em;
+}
+.camino:nth-child(33) {
+    left: 43em;
+    top: 87em;
+}
+
+.camino:nth-child(34) {
+    left: 21em;
+    top: 83.5em;
+}
+
+.leccion1 {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    text-align: center;
+    background-image: url(../img/luna.png);
+    background-size: cover;
+    width: 10em;
+    height: 10em;
+    left: 10em;
+    top: 20em;
+    /* Para que la imagen cubra todo el contenedor */
+}
+.leccion1::before {
+    content: "";
+    position: absolute;
+    bottom: 8em;
+    left: 1em;
+    width: 80%;
+    height: 100%;
+    background-image: url(../img/astronautaSolo.png);
+    background-size: cover;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+
+    cursor: pointer;
+    /* Agrega el cursor de mano */
+
+    
+}
+
+.leccion1:hover::before {
+    opacity: 1;
+    
+}
+.leccion2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 30em;
+    top: 18em;
+    display: flex;
+}
+
+.leccion3 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 50em;
+    top: 22em;
+    display: flex;
+}
+
+.leccion4 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 66em;
+    top: 35em;
+    display: flex;
+}
+
+.leccion5 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 48em;
+    top: 45em;
+    display: flex;
+}
+
+.leccion6 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 28em;
+    top: 46em;
+    display: flex;
+}
+
+.leccion7 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 11em;
+    top: 53em;
+    display: flex;
+}
+
+.leccion8 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 7em;
+    top: 72em;
+    display: flex;
+}
+
+.leccion9 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 25em;
+    top: 80em;
+    display: flex;
+}
+
+.leccion10 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10em;
+    border: 0.5em solid orange;
+    background-color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    width: 10em;
+    height: 10em;
+    left: 45em;
+    top: 83em;
+    display: flex;
+    }
