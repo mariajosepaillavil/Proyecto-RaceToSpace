@@ -9,6 +9,16 @@
             "projectName": "controladoresspring",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootracetospaceApplication<springbootracetospace>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.racetospace.springbootracetospace.SpringbootracetospaceApplication",
+            "projectName": "springbootracetospace",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
